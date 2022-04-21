@@ -1,0 +1,35 @@
+#filter-box {
+    position: absolute;
+    z-index: 1090;
+}
+
+.background-filter {
+    background-color: rgba(0,0,0,.5);
+    position: fixed; /*ganti ke fixed*/
+    display: none;
+}
+.container{
+    position: relative;
+    top: -12vh;
+}
+.content1{
+    padding-top: 6%;
+}
+.content7{
+    margin-top: 11%;
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+
+.card{
+    width: 105%;
+}
+
+a{
+    color: black;
+}
+
+#cars-container{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css" />
+    <script src="./asset/js/jquery.js"></script>
+    <script src="./asset/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./asset/css/challenge3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="asset/css/filter-box.css" />
+    <link href="./css/style.example.css" rel="stylesheet" />
+    <title>Sewa Mobil</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-5-strong">
+      <a class="navbar-brand" href="#content1__item--judul"
+        ><img class="logo" src="./asset/img/logo.svg" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class=""><img src="./asset/img/button.svg" alt="" /></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse nav-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="d-lg-none">
+            <div class="bcr">
+              <div class="bcr__item"><strong>BCR</strong></div>
+              <div class="bcr__item silang">
+                <img
+                  class="navbar-nav-toggler"
+                  src="./asset/img/silang.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html#content2__item--judul"
+              ><strong>Our Service</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html#content3--judul"
+              ><strong>Why Us</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html#content4__item--header"
+              ><strong>Testimonial</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html#content6__item--header"
+              ><strong>FAQ</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link regist" href="#">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- content1 -->
+    <div class="content1">
+      <div class="content1__item--text" data-aos="fade-up">
+        <p class="judul" id="content1__item--judul">
+          Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+        </p>
+        <p class="">
+          Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+          <br />
+          terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
+          <br />
+          untuk sewa mobil selama 24 jam.
+        </p>
+      </div>
+      <div class="content1__item" data-aos="fade-up">
+        <img class="image img-fluid" src="./asset/img/mobil.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="filter-box"></div>
+    </div>
+    <div class="modal-backdrop background-filter"></div>
+
+    <div id="cars-container" class="row mt-5"></div>
+
+    <div class="content7" data-aos="fade-up">
+      <div class="content7__item">
+        <ul>
+          <li>
+            Jalan Suroyo No. 161 Mayangan Kota
+            <br />
+            lirobolonggo 672000
+          </li>
+          <li>binarcarrental@gmail.com</li>
+          <li>081-233-334-808</li>
+        </ul>
+      </div>
+      <div class="content7__item">
+        <ul>
+          <li>
+            <a href="index.html#content2__item--judul" class="mb-2"
+              ><strong>Our services</strong></a
+            >
+          </li>
+          <li>
+            <a href="index.html#content3--judul"><strong>Why Us</strong></a>
+          </li>
+          <li>
+            <a href="index.html#content4__item--header"
+              ><strong>Testimonial</strong></a
+            >
+          </li>
+          <li>
+            <a href="index.html#content6__item--header"><strong>FAQ</strong></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content7__item">
+        <ul>
+          <li>
+            <p>Connect with us</p>
+            <img src="./asset/img/fb.svg" alt="" class="mr-2" />
+            <img src="./asset/img/ig.svg" alt="" class="mr-2" />
+            <img src="./asset/img/twitter.svg" alt="" class="mr-2" />
+            <img src="./asset/img/mail.svg" alt="" class="mr-2" />
+            <img src="./asset/img/twitch.svg" alt="" class="mr-2" />
+          </li>
+        </ul>
+      </div>
+      <div class="content7__item">
+        <ul>
+          <li>
+            <p>Copyright Binar 2022</p>
+            <img src="./asset/img/logo.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <!-- <script type="text/javascript" src="./scripts/app.example.js"></script> -->
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <!-- <script type="text/javascript" src="./scripts/main.example.js"></script> -->
+    <script src="asset/js/filter-box-container.js"></script>
+    <script src="asset/js/filter-box.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+      AOS.init();
+      $(document).on(
+        "click",
+        ".navbar-collapse,.navbar-nav-toggler",
+        function (e) {
+          if (
+            $(e.target).is(".navbar-collapse") ||
+            $(e.target).is(".navbar-nav-toggler")
+          ) {
+            e.preventDefault();
+            $(".navbar-collapse").collapse("hide");
+          }
+        }
+      );
+    </script>
+  </body>
+</html>
